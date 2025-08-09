@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>HTML5 Semantic - Phuket Vacation</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    ul {
+      padding: 0;
+      list-style: none;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      color: #333;
+      line-height: 1.4;
+      margin: 0;
+    }
+
+    #header {
+      margin-bottom: 15px;
+      background: #333;
+      color: #fff;
+      padding: 10px;
+    }
+
+    #main {
+      float: left;
+      width: 69%;
+    }
+
+    #sidebar {
+      float: right;
+      width: 29%;
+    }
+
+    .clr {
+      clear: both;
+    }
+
+    #footer {
+      background: #333;
+      color: #fff;
+      padding: 10px;
+    }
+
+    .text-center {
+      display: block;
+      text-align: center;
+    }
+
+    .card {
+      border: 1px solid #ddd;
+      background: #f4f4f4;
+      padding: 20px;
+      margin-bottom: 10px;
+    }
+
+    a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header id="header" class="card">
+    <h1>Tourism</h1>
+    <p>Software Engineer : Nara Sipa</p>
+  </header>
+
+  <!-- Main Content -->
+  <main id="main">
+    <!-- Welcome Section -->
+    <section id="welcome" class="card">
+      <h2>Phuket</h2>
+      <p>
+        Phuket is Thailand's largest island, famous for its stunning beaches, lively nightlife, delicious food, and rich culture.
+        Whether you love adventure or just want to relax by the sea, Phuket has something for everyone.
+      </p>
+      <p>
+        <a href="#" class="text-center">Facebook: Nara Sipa</a>
+        <a href="#" class="text-center">YouTube: Nara Sipa</a>
+      </p>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog">
+      <h2>Experience</h2>
+      <!-- Article One -->
+      <article class="card">
+        <h3>Phuket Experience</h3>
+        <p>
+          My trip to Phuket was unforgettable — from exploring the busy streets of Patong, relaxing on Kata Beach,
+          to visiting the famous Big Buddha. The turquoise waters and friendly locals made it an amazing journey.
+        </p>
+        <p>
+          <a href="https://en.wikipedia.org/wiki/Phuket_province" target="_blank">Learn more about Phuket</a>
+        </p>
+      </article>
+      <hr>
+      <!-- Article Two -->
+      <article class="card">
+        <h3>ร้านอาหารแนะนำ (Recommended Restaurants)</h3>
+        <p>
+          Phuket offers a variety of food — from fresh seafood to traditional Thai dishes like Tom Yum Goong and Pad Thai.
+          Some must-try places are local night markets where the flavors are unforgettable.
+        </p>
+        <p>
+          <a href="https://www.phuket.net/dining/" target="_blank">See restaurant guide</a>
+        </p>
+      </article>
+    </section>
+  </main>
+
+  <!-- Sidebar-->
+  <aside id="sidebar" class="card">
+    <h3>เมนู</h3>
+    <!-- Navigation -->
+    <ul id="main-nav">
+      <li><a href="#">หน้าแรก</a></li>
+      <li><a href="#">เกี่ยวกับเรา</a></li>
+      <li><a href="#">งานของเรา</a></li>
+    </ul>
+    <hr />
+    <h3>ติดต่องาน</h3>
+    <ul>
+      <li><strong>ที่อยู่:</strong> 555 กรุงเทพ 10555</li>
+      <li><strong>เบอร์โทรศัพท์:</strong> (+66) 05-555-5555</li>
+      <li><strong>อีเมล:</strong> contact555@gmail.com</li>
+    </ul>
+  </aside>
+
+  <div class="clr"></div>
+
+  <!-- Footer -->
+  <footer id="footer" class="card text-center">
+    <p>Copyright &copy; Timmy 2025</p>
+  </footer>
+</body>
+</html>
